@@ -170,7 +170,7 @@ public class CompletableFutureChaining implements CommandLineRunner {
     System.out.println("  Result (with fallback): " + withFallback.get());
 
     // handle: Process both success and failure
-    CompletableFuture<String> handled = CompletableFuture.supplyAsync(() -> {
+    CompletableFuture<Object> handled = CompletableFuture.supplyAsync(() -> {
       throw new RuntimeException("Error!");
     }).handle((result, ex) -> {
       if (ex != null) {

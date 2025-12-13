@@ -44,7 +44,7 @@ public class ReverseBitsUtility implements CommandLineRunner {
 
     // Demo 1: Reverse Bits
     System.out.println("--- Demo 1: Reverse Bits (LeetCode #190) ---\n");
-    int[] testNums = {43261596, 4294967293};
+    int[] testNums = {43261596, 43361696};
     for (int n : testNums) {
       int reversed = reverseBits(n);
       System.out.println("  Original: " + padBinary(n));
