@@ -1,6 +1,5 @@
 package com.example.tutorial.dsa.medium.concurrency.producerconsumer;
 
-import com.example.tutorial.common.datamodel.Task;
 
 import java.util.LinkedList;
 import java.util.Queue;
