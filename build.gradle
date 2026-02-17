@@ -38,7 +38,7 @@ java {
 // Project metadata
 group = 'com.example.tutorial'
 version = '0.0.1'
-description = 'Spring Boot REST API'
+description = 'Spring Boot App'
 
 repositories {
   /**
@@ -86,12 +86,6 @@ dependencies {
    * BeanUtils, PropertyUtils, and other utility classes for JavaBeans.
    */
   implementation "commons-beanutils:commons-beanutils:${commonsBeanUtilsVersion}"
-
-  /**
-   * Lombok
-   */
-  implementation 'org.projectlombok:lombok:1.18.30'
-  annotationProcessor 'org.projectlombok:lombok:1.18.30'
 
 
   /** TESTING **/
